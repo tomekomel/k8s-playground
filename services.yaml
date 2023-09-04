@@ -34,4 +34,7 @@ spec:
       # anything greater then 30000
       nodePort: 30010
 
+    - name: endpoint
+      port: 61616
+
   type: NodePort
