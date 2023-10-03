@@ -31,7 +31,8 @@ spec:
   ports:
     - name: http
       port: 8161
-      # anything greater then 30000
+      # anything greater than 30000
+      # nodePort exposes to the outside world
       nodePort: 30010
 
     - name: endpoint
